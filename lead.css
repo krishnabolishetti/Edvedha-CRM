@@ -51,7 +51,7 @@ body{
 .aside-bar{
     width: 15%;
     height: 100vh;
-    background-color: #64748b;
+    background: linear-gradient(to bottom, white, #64748b);
     position: static; 
     float: left;
     /* border: 2px solid red; */
@@ -98,7 +98,7 @@ h2{
     font-size: larger;
     color: black;
 }
-.li a{
+a{
     text-decoration: none; 
     color:#0f172a;
 }
@@ -111,16 +111,17 @@ h2{
 }
 .aside-foot{
     flex-grow: inherit;
-    height: 30px;
+    height: 40px;
     margin: 15vh 35px 0px 35px;
-    background-color: #374151;
+    background-image: linear-gradient(to right,rgb(93, 93, 131),rgb(199, 195, 195));
     padding: 10px 0px 0px 20px;
     border-radius: 10px;
-    color:rgb(223, 204, 175);
+    color:rgb(182, 113, 10);
 }
 .aside-foot:hover{
     background: #f8f9fa;
     border-radius: 8px;
+    background-image: linear-gradient(to right,rgb(199, 195, 195),rgb(93, 93, 131));
     color: black;
     padding-left: 30px;
     transition: 0.3s; 

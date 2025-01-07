@@ -51,7 +51,7 @@ body{
 .aside-bar{
     width: 15%;
     height: 100vh;
-    background-color: #64748b;
+    background: linear-gradient(to bottom, white, #64748b);
     position: static; 
     float: left;
     /* border: 2px solid red; */
@@ -113,7 +113,7 @@ h2{
     flex-grow: inherit;
     height: 30px;
     margin: 15vh 35px 0px 35px;
-    background-color: #374151;
+    background-color: #64748b;
     padding: 10px 0px 0px 20px;
     border-radius: 10px;
     color:rgb(223, 204, 175);

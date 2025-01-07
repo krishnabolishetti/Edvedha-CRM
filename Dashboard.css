@@ -37,8 +37,9 @@ body{
 }
 .aside-bar{
     width: 15%;
-    height: 100vh;
-    background-color: rgb(200, 84, 230);
+    height: auto;
+    background: linear-gradient(to bottom, white, #64748b);
+
     position: static; 
     float: left;
     /* border: 2px solid red; */
@@ -74,41 +75,45 @@ h2{
     margin-top: 10px;
 }
 .fa-solid{
-    margin-right: 7px;
+    margin-right: 5px;
+    /* border: 1px solid red; */
 }
 .ul{
-    /* border: 1px solid red;  */
+   
     margin: 5px;
     
 }
 .li{
     list-style-type: none;
-    padding: 13px;
+    padding: 13px ;
     font-size: larger;
 }
-.li a{
+ a{
     text-decoration: none;
 }
 .menu ul li:hover{
-    background: #f8f9fa;
+    background: #f9fafa;
     border-radius: 8px;
-    color: black;
     padding-left: 20px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .aside-foot{
     flex-grow: inherit;
     height: 40px;
     margin: 15vh 35px 0px 35px;
-    background-color: rgb(167, 145, 145);
+    background-image: linear-gradient(to right,rgb(93, 93, 131),rgb(199, 195, 195));
     padding: 10px 0px 0px 20px;
     border-radius: 10px;
-    color:black;
+    color:rgba(56, 3, 99, 0.89);
+    margin-bottom: 50px;
+    font-weight: 700;
 }
 .aside-foot:hover{
-    background: #f8f9fa;
+    /* background: #d7e3ee; */
     border-radius: 8px;
-    color: black;
+    color: rgba(56, 3, 99, 0.89);
+    background-image: linear-gradient(to right,rgb(196, 192, 192),rgb(93, 93, 131));
+
     padding-left: 30px;
     transition: 0.3s; 
 }

@@ -52,7 +52,7 @@ body{
 .aside-bar{
     width: 15%;
     height: 100vh;
-    background-color: #64748b;
+    background: linear-gradient(to bottom, white, #64748b);
     position: static; 
     float: left;
     /* border: 2px solid red; */
